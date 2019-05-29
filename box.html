@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <title>Box Model</title>
+    <style>
+      body,
+      html {
+        padding: 0;
+        margin: 0;
+        background-color: pink;
+        height: 100%;
+      }
+      .box {
+        background-color: plum;
+        width: 50%;
+        height: 50%;
+        border: 5px solid red;
+        padding: 20px 10px 5px 2px;
+      }
+      .inside-box {
+        background-color: palevioletred;
+        width: 50%;
+        height: 50%;
+        border: 5px dashed yellow;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="box">
+      <div class="inside-box"></div>
+    </div>
+  </body>
+</html>
